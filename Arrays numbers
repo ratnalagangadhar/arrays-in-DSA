@@ -1,0 +1,18 @@
+var even=[];
+var odd=[];
+const aa = [2,3,4,6,5,1,8]
+// aa.forEach(myAg);
+
+for(let i=0;i<aa.length;i++){
+var t=aa[i]
+if(t % 2==0){
+    even.push(t)
+    
+}else{
+    odd.push(t)
+}
+
+}
+console.log(even+ "," +odd)
+console.log([...even,...odd])
+console.log(even.concat(odd))
